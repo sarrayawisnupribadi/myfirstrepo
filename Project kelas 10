@@ -1,0 +1,21 @@
+public class NewClass13 {
+    public static void main (String [] args){
+ String [] nama = {"Deanne", "Victoria", "Erna", "Nathalie", "Pamela","Armand", 	"Omar", "Alvaro", "Ben", "Danny"};
+ String namaDicari;
+ 
+ Scanner scanner = new Scanner ( System.in );
+       Scanner in = new Scanner (System.in); 
+ 
+ for (String nama2 : nama )  {
+ System.out.println("Nama : " +  (nama2));
+ }
+         System.out.println("Nama siswa yang dicari : ");
+                namaDicari = scanner.nextLine();
+                if (Arrays.asList(nama).contains(namaDicari)){
+                    System.out.println("Data ditemukan");
+                    
+                }else { System.out.println("Data tidak ditemukan");
+                }
+                 
+}
+}
